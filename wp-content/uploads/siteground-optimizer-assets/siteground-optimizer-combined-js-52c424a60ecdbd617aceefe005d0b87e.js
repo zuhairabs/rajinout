@@ -85,17 +85,10 @@ jQuery(function($){
   $('#linhas .card').on( "click", function() {
     $card = $(this);
 
-    switch(true) {
-      case $card.hasClass('smoothies-frutados'):
-        var target = '#smoothies-frutados-prods';
-      break;
-      case $card.hasClass('smoothies-proteinados'):
-        var target = '#smoothies-proteinados-prods';
-      break;
-      case $card.hasClass('healthy-shakes'):
-        var target = '#healthy-shakes-prods';
-      break;
-    }
+    var categoryNum = $card.attr('class').match(/category-(\d+)/);
+	if (categoryNum) {
+		var target = '#product-' + categoryNum[1];
+	}
 
     $('#linhas .card').removeClass('ativo');
     $card.addClass('ativo');

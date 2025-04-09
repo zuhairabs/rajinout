@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.999" height="29.518" viewBox="0 0 32.999 29.518">
+  <g id="Mail" transform="translate(1.37 -0.367)">
+    <rect id="Area" width="29.517" height="29.517" transform="translate(0.371 0.367)" fill="#fcfcfc" opacity="0"></rect>
+    <g id="Icon" transform="translate(0.033 0)">
+      <path id="d93b2da6-9688-4fa8-a574-1abeb1a05951"
+        d="M5.9,5.9H29.517a2.961,2.961,0,0,1,2.952,2.952V26.566a2.96,2.96,0,0,1-2.952,2.951H5.9a2.96,2.96,0,0,1-2.951-2.951V8.855A2.961,2.961,0,0,1,5.9,5.9Z"
+        transform="translate(-2.614 -2.585)" fill="none" stroke="#2e3a45" stroke-linecap="round" stroke-linejoin="round"
+        stroke-width="2.5"></path>
+      <path id="_2f57257e-5a7e-4826-8a52-1616c8ec89ec" data-name="2f57257e-5a7e-4826-8a52-1616c8ec89ec"
+        d="M32.469,8.855,17.71,19.186,2.952,8.855" transform="translate(-2.614 -2.585)" fill="none" stroke="#2e3a45"
+        stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path>
+    </g>
+  </g>
+</svg>

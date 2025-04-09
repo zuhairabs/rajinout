@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /beta/
+
+# Redirect /product/dehydrate-with-onion to /product/index.php
+RewriteRule ^product/([a-zA-Z0-9-]+)/?$ /beta/product/index.php [L]
